@@ -13,7 +13,7 @@
 .w3-theme-l5 {color:#000 !important; background-color:#f3f3f9 !important}
 .w3-theme-l4 {color:#000 !important; background-color:#fefefe !important}
 .w3-theme-l3 {color:#000 !important; background-color:#afb0d7 !important}
-.w3-theme-l2 {color:#fff !important; background-color:#8789c3 !important}
+.w3-theme-l2 {color:#fff !important; background-color:white !important}
 .w3-theme-l1 {color:#fff !important; background-color:#5f62ae !important}
 .w3-theme-d1 {color:#fff !important; background-color:#3f417d !important}
 .w3-theme-d2 {color:#fff !important; background-color:#383a6f !important}
@@ -29,6 +29,7 @@
 .w3-text-theme {color:#47498c !important}
 .w3-border-theme {border-color:#47498c !important}
 .w3-border {border-color:#47498c !important}
+.page-wrapper.w3-animate-opacity{animation:none!important;}
 
 .w3-theme {color:#000 !important; background-color:#E7B059 !important}
 
@@ -37,6 +38,12 @@
 
 .w3-sios-main-menu {color:#000 !important; background-color:#e7b059 !important}
 .w3-sios-header {color:#000 !important; background-color:#ffffff !important}
+
+#header {
+    background-image: url('/system/files/common/Banner.png');
+    background-position: center;
+    background-size: 100%;
+}
 
 /* Footer sstyling */
 #footer-container .footer-box > div {
@@ -60,6 +67,168 @@
     float: left;
     color: #47498C !important;
 }
-h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
+h1 a, h2 a, h3 a, h4 a {
   color: #47498C !important;
 }
+
+a {
+
+  color: #47498C !important;
+ }
+
+a.tMenu {
+	color: #fff !important;
+}
+a[role=menuitem] {
+	/*color: #fff !important;*/
+    color: #4c4e97 !important;
+}
+/* Put smaller font size on block titles */
+h2.w3-block-title {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 4px 8px !important;
+  margin: 5px 0 !important;
+}
+
+/* Set the page with to 80 percent 
+.w3-width-95-percent {
+  max-width: 95%!important;
+}*/
+/* Override the font of the body text */
+body {
+  font-family:Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+/* Override the headings font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #47498C !important;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 5px 0 !important;
+}
+
+/*Lara meeting minutes view */
+.view-meeting-minutes-for-all-wg table thead tr th{
+   width: 33%;
+}
+
+.view-tutorials .col-1, .col-2{
+   max-width: unset;
+}
+
+/*Lara accordion*/
+.ckeditor-accordion-container > dl dt > a{
+   background-color: #ddd;
+   border-bottom: none;
+   margin: 0.5em;
+}
+.ckeditor-accordion-container > dl dt > a:hover {
+    background-color: #e7b059;
+}
+
+.ckeditor-accordion-container > dl {
+   border: none;
+}
+
+.ckeditor-accordion-container > dl dt.active > a {
+   background-color: #e7b059;
+   border: 1px solid #ddd;
+}
+
+.home-header {
+   background-color: rgb(231, 176, 89); 
+   font-size: x-large; 
+   max-width: 490px; 
+   width: 100%; 
+   padding: 10px 10px;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 20px;
+   height: 33%;
+}
+
+.home-image {
+   margin: 3px 3px 12px 3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+[class*="col-home-"] {
+  float: left;
+  padding: 0px;
+}
+
+table th {
+  background: #474994;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+table {
+   border-collapse: unset;
+}
+
+
+.boxes-header {
+   background-color: rgb(231, 176, 89); 
+   font-size: x-large; 
+   max-width: 490px; 
+   width: 100%; 
+   padding: 10px 10px;
+   text-align: center;
+   margin: auto;
+}
+
+/* button class*/
+.sios-button {
+   border-radius: 4px;
+   background-color: #474994;
+   color: white !important;
+   font-size: 16px;
+   padding: 10px;
+   font-weight: bold;
+   border: none;
+}
+
+
+/*
+#Aen - magnarem
+*/
+.aen-details {
+   border-color: black !important;
+   border-width: 1px !important;
+   border-style: solid !important;
+   padding: 8px 16px !important;
+   margin-top: 16px !important;;
+   margin-bottom: 16px !important;
+
+   }
+   .aen table th  a:link {
+        color: white !important;
+}
+.aen table th a:visited {
+        color: white !important;
+}
+.aen table th a:hover {
+        color: grey !important;
+}
+/*
+Metadata details pane link and heading colora
+*/
+#drupal-off-canvas a {
+	color: #6495ED !important;
+}
+#drupal-off-canvas h1 {
+        color: #6495ED !important;
+}
+#drupal-off-canvas h2 {
+        color: #6495ED !important;
+}
+
