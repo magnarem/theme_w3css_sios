@@ -1,9 +1,8 @@
 name: SIOS - Drupal8 W3CSS  
 type: theme
 base theme: drupal8_w3css_theme
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 description: 'drupal8 w3css subtheme is an empty theme for your customization.'
-core: '8.x'
 libraries:
   - sios/global-components
 
@@ -41,6 +40,6 @@ features:
   slogan: true
 
 # Information added by Drupal.org packaging script on 2020-06-20
-version: '8.x-1.17'
+version: '2.0.12'
 project: 'd8w3css'
 datestamp: 1592668253

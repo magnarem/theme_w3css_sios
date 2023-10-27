@@ -51,6 +51,11 @@
     background-color: #47498C !important;
 }
 
+/* Footer images*/
+span.sios-footer > img {
+	display: unset !important;
+}
+
 #block-sios-contactinformation13 {
     border-color: #47498C !important;
     background-color: #47498C;
@@ -125,8 +130,8 @@ h6 {
 }
 
 /*Lara accordion*/
-.ckeditor-accordion-container > dl dt > a{
-   background-color: #ddd;
+.ckeditor-accordion-container > dl dt > a:not(.button) {
+   background-color: #d5dde2;
    border-bottom: none;
    margin: 0.5em;
 }
