@@ -96,7 +96,10 @@
   {% if display_submitted %}
     <footer class="node__meta">
       <div{{ author_attributes.addClass('w3-small node__submitted') }}>
-        {% trans %}Submitted on {{ date }}{% endtrans %}
+        {% set CreatedDate = node.getCreatedTime|format_date('custom', 'Y-m-d') %}
+        {% set ChangedDate = node.getChangedTime|format_date('custom', 'Y-m-d') %}
+        {% trans %}Submitted on {{ CreatedDate }}; Updated on {{ ChangedDate }} {% endtrans %}
+
         {{ metadata }}
       </div>
     </footer>
